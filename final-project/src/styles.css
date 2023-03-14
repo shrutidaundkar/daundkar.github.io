@@ -1,14 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
 :root {
   --white: #ffffff;
   --black: #080808;
+  --gray: #a3a7a9;
   --dark-blue: #0a2a5c;
-  --blue: #1349a1;
-  --light-blue: #1f72f8;
+  --blue: #80c7ea;
+  --light-blue: #b4d6e7;
 }
 
 body {
-  background-color: #b4d6e7;
+  background-color: var(--light-blue);
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
   padding: 0;
