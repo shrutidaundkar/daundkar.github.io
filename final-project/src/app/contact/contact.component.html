@@ -1,1 +1,49 @@
-<p>contact works!</p>
+<div class="container m-auto col-8 pt-5">
+  <div class="card bg-light">
+    <h1 class="card-header">Contact Form</h1>
+    <div class="card-body">
+      <div class="row">
+        <div class="form-group col-12">
+          <label for="name">Name:</label>
+          <input type="text" id="name" class="form-control" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-12">
+          <label for="email">Email:</label>
+          <input type="email" id="email" class="form-control" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-12">
+          <label for="message">Message</label>
+          <textarea type="text" id="message" class="form-control"></textarea>
+        </div>
+      </div>
+      <div class="row pt-3">
+        <div class="form-group col-12">
+          <button
+            type="button"
+            id="submit"
+            class="btn submit-style btn-default"
+          >
+            Send
+            <img
+              src="../../assets/images/send.png"
+              alt="Send icon"
+              width="20px"
+            />
+          </button>
+          <button type="button" id="reset" class="btn reset-style btn-default">
+            Reset
+            <img
+              src="../../assets/images/undo.png"
+              alt="Reset icon"
+              width="20px"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+.submit-style {
+  background-color: var(--light-blue);
+  margin-right: 2%;
+  width: 49%;
+}
+.reset-style {
+  background-color: var(--light-blue);
+
+  width: 49%;
+}
