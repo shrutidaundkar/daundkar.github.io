@@ -13,7 +13,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.container {
+  min-height: 100vh;
+}
 .style-title {
   font-size: x-large;
   font-weight: bolder;
@@ -34,4 +36,18 @@ body {
   font-size: medium;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-style: italic;
+}
+.card {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  font-weight: bold;
+}
+.card-header {
+  /* font-weight: bolder; */
+  font-size: xx-large;
+  border-bottom: solid 2px var(--light-blue);
+}
+.card-footer {
+  padding: 4%;
+  border-top: solid 2px var(--light-blue);
 }
