@@ -2,7 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
 
-## Development server
+##Glone repo using following command:
+
+`git clone https://github.com/shrutidaundkar/wd-project.git`
+
+##Initialise all the dependencies ny running following commands
+
+`cd final-project`
+`npm install`
+
+## Development server (to execute)
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
