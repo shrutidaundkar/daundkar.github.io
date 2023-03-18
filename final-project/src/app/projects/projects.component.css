@@ -1,5 +1,22 @@
+.card {
+  min-width: 300px;
+}
+.card-header {
+  background-color: var(--white);
+  height: 200px;
+}
+.style-description {
+  font-size: small;
+  font-weight: normal;
+}
+.style-title {
+  text-align: center;
+  display: block;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: xx-large;
+}
 .link-style {
   text-decoration: none;
   font-family: "Courier New", Courier, monospace;
-  color: var(--dark-blue);
+  color: var(--white);
 }

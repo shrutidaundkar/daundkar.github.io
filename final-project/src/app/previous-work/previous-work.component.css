@@ -1,0 +1,8 @@
+.style-description {
+  font-size: small;
+  font-weight: normal;
+}
+.card-body {
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+}

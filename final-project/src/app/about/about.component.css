@@ -1,5 +1,7 @@
 .container-style {
   width: 100%;
+  padding: 10vh 0 10vh 0;
+  height: 50vh;
 }
 .row-style {
   margin: 0 auto;
